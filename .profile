@@ -1,12 +1,8 @@
 # .profile
-export PATH="$PATH:/usr/local/bin/"
-export PATH="$PATH:$HOME/.composer/vendor/bin"
-export EDITOR='subl -w'
 
 alias desktop="cd ~/Desktop"
 alias downloads="cd ~/Downloads"
 alias documents="cd ~/Documents"
-alias dotfiles="subl ~/Library/Mobile\ Documents/com~apple~CloudDocs/dotfiles"
 alias trak="cd ~/Developer/trak/sponsorship"
 
 alias art="php artisan"
@@ -17,7 +13,7 @@ alias yp="yarn install && yarn prod"
 alias yr="rm -rf node_modules && yarn install && yarn prod"
 
 
-alias profile="source ~/.profile"
+alias profile="source ~/.zshrc"
 alias bashconfig="subl ~/.profile"
 alias awsconfig="subl ~/.aws"
 alias gitconfig="subl ~/.gitconfig"
@@ -109,4 +105,3 @@ snippet() {
     cd -
 }
 
-source /usr/local/opt/nvm/nvm.sh
